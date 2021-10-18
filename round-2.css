@@ -1,0 +1,35 @@
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+.gameboard{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
+    grid-template-rows: 2fr 2fr 2fr 2fr 2fr 2fr;
+    border: 2px solid black;
+}
+
+.points{
+    border: 2px solid black;
+}
+
+.myanswer{
+    display: flex;
+    justify-content: center;
+}
+
+.decide{
+    display: flex;
+    justify-content: center;
+}
+
+.score{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
