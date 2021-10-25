@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Btoswer Tab Title -->
+  <title>Jeopardy Round 1!</title>
+  <!-- HTML Link to  -->
+  <link rel="stylesheet" href="round-1.css" />
+
+</head>
+
+<body>
+
+  <div class="title">
+    <h1>Jeopardy Round One!</h1>
+  </div>
+
+<div id="questionTimerWrap">
+  <div id="qTimeStatus"></div>
+</div>
+
+  <div class="playerTurn">
+    <button type="text" id="playerTurn"></button> 
+  </div>
+
+
+  <div class="timer" id="roundTimer">Round Time</div>
+
+  <div class="gameboard" id="questionSelection">
+    <div> <button type="button"  class="cat" id="cat1">Scientific and Medical ABBREV</button></div>
+    <div> <button type="button"  class="cat" id="cat2">Category 2</button></div>
+    <div> <button type="button"  class="cat" id="cat3">Category 3</button></div>
+    <div> <button type="button"  class="cat" id="cat4">Category 4</button></div>
+    <div> <button type="button"  class="cat" id="cat5">Category 5</button></div>
+    <div> <button type="button"  class="cat" id="cat6">Category 6</button></div>
+    <div> <button type="button" onclick="questionPrompt()" class="points" id="catbutton1-100">100</div>
+    <div> <button type="button" onclick="questionPrompt()" class="points" id="catbutton2-100">100</div>
+    <div> <button type="button" onclick="questionPrompt()" class="points" id="catbutton3-100">100</div>
+    <div> <button type="button" onclick="questionPrompt()" class="points" id="catbutton4-100">100</div>
+    <div> <button type="button" onclick="questionPrompt()" class="points" id="catbutton5-100">100</div>
+    <div> <button type="button" onclick="questionPrompt()" class="points" id="catbutton6-100">100</div>
+    <div> <button type="button" onclick="questionPrompt()" class="points" id="catbutton1-200">200</div>
+    <div> <button type="button" onclick="questionPrompt()" class="points" id="catbutton2-200">200</div>
+    <div> <button type="button" onclick="questionPrompt()" class="points" id="catbutton3-200">200</div>
+    <div> <button type="button" onclick="questionPrompt()" class="points" id="catbutton4-200">200</div>
+    <div> <button type="button" onclick="questionPrompt()" class="points" id="catbutton5-200">200</div>
+    <div> <button type="button" onclick="questionPrompt()" class="points" id="catbutton6-200">200</div>
+    <div> <button type="button" onclick="questionPrompt()" class="points" id="catbutton1-300">300</div>
+    <div> <button type="button" onclick="questionPrompt()" class="points" id="catbutton2-300">300</div>
+    <div> <button type="button" onclick="questionPrompt()" class="points" id="catbutton3-300">300</div>
+    <div> <button type="button" onclick="questionPrompt()" class="points" id="catbutton4-300">300</div>
+    <div> <button type="button" onclick="questionPrompt()" class="points" id="catbutton5-300">300</div>
+    <div> <button type="button" onclick="questionPrompt()" class="points" id="catbutton6-300">300</div>
+    <div> <button type="button" onclick="questionPrompt()" class="points" id="catbutton1-400">400</div>
+    <div> <button type="button" onclick="questionPrompt()" class="points" id="catbutton2-400">400</div>
+    <div> <button type="button" onclick="questionPrompt()" class="points" id="catbutton3-400">400</div>
+    <div> <button type="button" onclick="questionPrompt()" class="points" id="catbutton4-400">400</div>
+    <div> <button type="button" onclick="questionPrompt()" class="points" id="catbutton5-400">400</div>
+    <div> <button type="button" onclick="questionPrompt()" class="points" id="catbutton6-400">400</div>
+    <div> <button type="button" onclick="questionPrompt()" class="points" id="catbutton1-500">500</div>
+    <div> <button type="button" onclick="questionPrompt()" class="points" id="catbutton2-500">500</div>
+    <div> <button type="button" onclick="questionPrompt()" class="points" id="catbutton3-500">500</div>
+    <div> <button type="button" onclick="questionPrompt()" class="points" id="catbutton4-500">500</div>
+    <div> <button type="button" onclick="questionPrompt()" class="points" id="catbutton5-500">500</div>
+    <div> <button type="button" onclick="questionPrompt()" class="points" id="catbutton6-500">500</div>
+  </div>
+
+
+  <div class="playerText">
+    <form><input type="text" placeholder='What is..'></form>
+    <button type="button" id="player-answer">Submit Answer</button>
+  </div>
+
+  <div class="decide">
+    
+    <button type="button" id="player-guess">Guess!</button>
+    <button type="button" id="player-pass">Pass!</button>
+  </div>
+
+  <div class="score">
+    <div class="player1" id="player1">Player 1:<form><input type="text" placeholder="your score"></input></form>
+    </div>
+    <div class="player2" id="player2">Player 2:<form><input type="text" placeholder="your score"></input></form>
+    </div>
+  </div>
+
+  <nav>
+    <a src="/Round-2/round-2.html">Double Jeopardy! --></a>
+  </nav>
+
+
+<script src="round-1.js"></script>
+</body>
+
+</html>

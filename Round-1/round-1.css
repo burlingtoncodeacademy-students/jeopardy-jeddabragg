@@ -9,6 +9,11 @@ body {
     justify-content: center;
 }
 
+.timer {
+    display: flex;
+    justify-content: end;
+}
+
 .gameboard {
     display: grid;
     grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
@@ -20,7 +25,12 @@ body {
     border: 2px solid black;
 }
 
-.myanswer {
+.playerText {
+    display: flex;
+    justify-content: center;
+}
+
+.playerSubmit {
     display: flex;
     justify-content: center;
 }
