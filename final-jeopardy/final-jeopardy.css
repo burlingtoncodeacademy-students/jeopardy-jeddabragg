@@ -1,0 +1,28 @@
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+.lastcategory{
+    margin: 100px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 2fr 2fr 2fr;
+    border: 2px solid black;
+    border-width: 2px;
+}
+
+.topic{
+    display: flex;
+    justify-content: center;
+}
+
+.wadger{
+    display: flex;
+    justify-content: center;
+}
+
+.finalAnswer{
+    display: flex;
+    justify-content: center;
+}

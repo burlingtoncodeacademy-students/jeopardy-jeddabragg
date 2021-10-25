@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+/* Creates a grid for the entire page*/
+.container {
+    display: grid;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 2fr 2fr 2fr;
+    background-color: Blue;
+}
+/* Centers the Header */
+header {
+    grid-column-start: 2;
+    grid-column-end: 2;
+   
+}
+
+.container div {
+    grid-row-start: 2;
+    grid-column-start: 2
+    }
+
+/* Style for the image */
+.container img {
+    max-width: 100%;
+}
+/* Style for the form */
+form {
+justify-self: center;
+grid-column-start: 2;
+grid-row-start: 3;
+grid-column-end: 2;
+}

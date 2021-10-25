@@ -1,0 +1,62 @@
+body {
+    padding: 0;
+    margin: 0;
+
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.timer {
+    display: flex;
+    justify-content: end;
+}
+
+.gameboard {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
+    grid-template-rows: 2fr 2fr 2fr 2fr 2fr 2fr;
+    border: 2px solid black;
+}
+
+.points {
+    border: 2px solid black;
+}
+
+.playerText {
+    display: flex;
+    justify-content: center;
+}
+
+.playerSubmit {
+    display: flex;
+    justify-content: center;
+}
+
+.decide {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.score{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
+
+
+
+
+
+
